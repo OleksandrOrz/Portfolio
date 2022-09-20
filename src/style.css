@@ -80,18 +80,18 @@ a:hover {
 .hero div a:hover {
   color: black;
 }
-.aboutSection {
+.content {
   padding: 160px 20px;
 }
-.aboutSection h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.aboutSection h2 {
+.content h2 {
   font-size: 18px;
   font-weight: 800;
 }
-.aboutSection p {
+.content p {
   line-height: 1.5;
 }
 .col-lg-6 a {
@@ -111,6 +111,19 @@ a:hover {
 .aboutText {
   padding: 40px;
 }
+.workProject {
+  text-align: center;
+}
+.workProject h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.workProject p {
+  opacity: 0.7;
+  font-size: 14px;
+}
 @media (max-width: 900px) {
   .descriptionOfProject {
     padding: 0;
@@ -125,8 +138,12 @@ a:hover {
   .hero {
     padding: 80px 10px;
   }
-  .aboutSection {
+  .content {
     padding: 0;
+  }
+  .content h1 {
+    text-align: center;
+    padding: 50px 20px;
   }
   .col-lg-6 {
     text-align: center;
