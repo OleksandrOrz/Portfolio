@@ -130,6 +130,26 @@ a:hover {
   line-height: 1.5;
   font-weight: bold;
 }
+.navbar {
+  padding: 20px 80px;
+}
+.nav-link {
+  color: var(--textColor);
+  font-size: 18px;
+}
+.collapse {
+  display: flex;
+  justify-content: end;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #6c63ff;
+}
+
 @media (max-width: 900px) {
   .descriptionOfProject {
     padding: 0;
