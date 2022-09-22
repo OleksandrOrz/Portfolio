@@ -202,7 +202,7 @@ h4 {
     font-size: 44px;
   }
   .hero {
-    padding: 80px 10px;
+    padding: 100px 10px;
   }
   .content {
     padding: 0;
@@ -221,5 +221,8 @@ h4 {
 
   .navbar {
     padding: 20px;
+  }
+  .content {
+    padding: 100px 20px;
   }
 }
